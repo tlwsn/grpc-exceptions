@@ -1,0 +1,15 @@
+{
+  "name": "grpc-exceptions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@grpc/grpc-js": "^1.10.1",
+    "@nestjs/microservices": "^10.3.3"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.10.1",
+    "@nestjs/microservices": "^10.3.3",
+    "typescript": "^5.3.3"
+  }
+}
