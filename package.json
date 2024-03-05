@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "tsc"
+  },
   "peerDependencies": {
     "@grpc/grpc-js": "^1.10.1",
     "@nestjs/microservices": "^10.3.3"
