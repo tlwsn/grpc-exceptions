@@ -1,10 +1,17 @@
 {
   "name": "grpc-exceptions",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "tlwsn",
+  "private": false,
   "license": "MIT",
+  "repository": "https://github.com/tlwsn/grpc-exceptions",
+  "files": [
+    "build"
+  ],
   "scripts": {
-    "postinstall": "tsc"
+    "build": "tsc"
   },
   "peerDependencies": {
     "@grpc/grpc-js": "^1.10.1",
