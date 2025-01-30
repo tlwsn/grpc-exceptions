@@ -1,6 +1,6 @@
 {
   "name": "nest-grpc-exceptions",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "author": "tlwsn",
@@ -18,8 +18,8 @@
     "@nestjs/microservices": "^10.3.3"
   },
   "devDependencies": {
-    "@grpc/grpc-js": "^1.10.1",
-    "@nestjs/microservices": "^10.3.3",
-    "typescript": "^5.3.3"
+    "@grpc/grpc-js": "^1.12.5",
+    "@nestjs/microservices": "^11.0.6",
+    "typescript": "^5.7.3"
   }
 }
